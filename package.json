@@ -1,0 +1,23 @@
+{
+  "name": "node-auth-server-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for node express server with passport and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tgdevjs",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.6.8",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^3.0.0"
+  }
+}
